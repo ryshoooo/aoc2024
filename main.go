@@ -8,6 +8,7 @@ import (
 	no3 "github.com/ryshoooo/aoc2024/3"
 	no4 "github.com/ryshoooo/aoc2024/4"
 	no5 "github.com/ryshoooo/aoc2024/5"
+	no6 "github.com/ryshoooo/aoc2024/6"
 )
 
 func printPretty(no int, solver func() error) {
@@ -26,4 +27,5 @@ func main() {
 	printPretty(3, no3.Solve)
 	printPretty(4, no4.Solve)
 	printPretty(5, no5.Solve)
+	printPretty(6, no6.Solve)
 }
