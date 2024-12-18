@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	no1 "github.com/ryshoooo/aoc2024/1"
+	no10 "github.com/ryshoooo/aoc2024/10"
 	no2 "github.com/ryshoooo/aoc2024/2"
 	no3 "github.com/ryshoooo/aoc2024/3"
 	no4 "github.com/ryshoooo/aoc2024/4"
@@ -11,6 +12,7 @@ import (
 	no6 "github.com/ryshoooo/aoc2024/6"
 	no7 "github.com/ryshoooo/aoc2024/7"
 	no8 "github.com/ryshoooo/aoc2024/8"
+	no9 "github.com/ryshoooo/aoc2024/9"
 )
 
 func printPretty(no int, solver func() error) {
@@ -32,4 +34,6 @@ func main() {
 	printPretty(6, no6.Solve)
 	printPretty(7, no7.Solve)
 	printPretty(8, no8.Solve)
+	printPretty(9, no9.Solve)
+	printPretty(10, no10.Solve)
 }
