@@ -9,6 +9,7 @@ import (
 	no12 "github.com/ryshoooo/aoc2024/12"
 	no13 "github.com/ryshoooo/aoc2024/13"
 	no14 "github.com/ryshoooo/aoc2024/14"
+	no15 "github.com/ryshoooo/aoc2024/15"
 	no2 "github.com/ryshoooo/aoc2024/2"
 	no3 "github.com/ryshoooo/aoc2024/3"
 	no4 "github.com/ryshoooo/aoc2024/4"
@@ -44,4 +45,5 @@ func main() {
 	printPretty(12, no12.Solve)
 	printPretty(13, no13.Solve)
 	printPretty(14, no14.Solve)
+	printPretty(15, no15.Solve)
 }
